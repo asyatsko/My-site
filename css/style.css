@@ -82,7 +82,28 @@ body {
     background-color: #FFFFFF;
     margin-bottom: 4px;
 }
-.h1 {
+.burger__line:last-child {
+    margin-bottom: 0;
 }
+.h1 {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: center;  
+    max-width: 734px;
+    margin: 0 auto 17px;
+    color: var(--white-color);
+    }
 .h4 {
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 734px;
+    color: var(--white-color);
 }
